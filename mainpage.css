@@ -219,11 +219,11 @@ html{
 }
 
 
-@media screen and (max-width:315px)
+@media screen and (max-width:360px)
 {
 
     #maintext{
-        height: 110vh;
+        height: 190vh;
     }
 }
 
@@ -233,5 +233,12 @@ html{
 {
 #mainbody{
     font-size: 100%;
+}
+}
+
+@media screen and (max-height:400px)
+{
+#maintext{
+    height: 210vh;
 }
 }
