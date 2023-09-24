@@ -229,4 +229,9 @@ html{
 
 
 
-
+@media screen and (max-height:853px)
+{
+#mainbody{
+    font-size: 100%;
+}
+}
