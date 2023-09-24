@@ -230,7 +230,7 @@ html{
 @media screen and (max-width: 600px){
     .article{
       flex-direction: row;
-      height: 35vh;
+      height: 45vh;
     }
 
     
