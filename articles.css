@@ -261,6 +261,17 @@ html{
 }  
 
 
+@media screen and (max-height: 530px){
+    .article{
+        flex-direction: row;
+        height: 110vh;
+  
+      }
+  
+}
+
+
+
 
 
 
