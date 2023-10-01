@@ -270,6 +270,17 @@ html{
   
 }
 
+@media screen and (max-width: 330px){
+    .article{
+        flex-direction: row;
+        height: 90vh;
+  
+      }
+  
+}
+
+
+
 
 
 
