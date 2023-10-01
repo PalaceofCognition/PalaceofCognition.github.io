@@ -247,7 +247,7 @@ html{
 @media screen and (max-width: 400px){
     .article{
       flex-direction: row;
-      height: 60vh;
+      height: 70vh;
 
     }
 
@@ -264,7 +264,7 @@ html{
 @media screen and (max-height: 530px){
     .article{
         flex-direction: row;
-        height: 110vh;
+        height: 120vh;
   
       }
   
