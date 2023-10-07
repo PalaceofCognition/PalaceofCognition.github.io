@@ -30,6 +30,6 @@ function tolstoy1() {
 }
 
 
-function hesse1() {
+function article3() {
     window.location.replace("steppenwolf.html")
 }
