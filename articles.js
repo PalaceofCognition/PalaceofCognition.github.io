@@ -4,6 +4,7 @@ let redirect2 = document.getElementById("mainpage")
 let article1 = document.getElementById("article1")
 let article2 = document.getElementById("article2")
 let hesse1 = document.getElementById("article3")
+let belljar1 = document.getElementById("article4")
 
 
 
@@ -32,4 +33,8 @@ function tolstoy1() {
 
 function hesse12() {
     window.location.replace("steppenwolf.html")
+}
+
+function belljar12() {
+    window.location.replace("the-bell-jar.html")
 }
