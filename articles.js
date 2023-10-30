@@ -5,6 +5,7 @@ let article1 = document.getElementById("article1")
 let article2 = document.getElementById("article2")
 let hesse1 = document.getElementById("article3")
 let belljar1 = document.getElementById("article4")
+let rage = document.getElementById("article5")
 
 
 
@@ -37,4 +38,8 @@ function hesse12() {
 
 function belljar12() {
     window.location.replace("the-bell-jar.html")
+}
+
+function rageagainst(){
+    window.location.replace("rage.html")
 }
