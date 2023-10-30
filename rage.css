@@ -656,4 +656,12 @@ html{
 
 }
 
+@media screen and (max-width: 650px){
+    #picture{
+    height: 80%;
+    width: 60%;
+    }
+
+}
+
 
