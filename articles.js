@@ -6,7 +6,7 @@ let article2 = document.getElementById("article2")
 let hesse1 = document.getElementById("article3")
 let belljar1 = document.getElementById("article4")
 let rage = document.getElementById("article5")
-
+let camus = document.getElementById("article6")
 
 
 function seenbefore() {
@@ -42,4 +42,8 @@ function belljar12() {
 
 function rageagainst(){
     window.location.replace("rage.html")
+}
+
+function camus2(){
+    window.location.replace("stranger.html")
 }
