@@ -7,6 +7,7 @@ let hesse1 = document.getElementById("article3")
 let belljar1 = document.getElementById("article4")
 let rage = document.getElementById("article5")
 let camus = document.getElementById("article6")
+let wall = document.getElementById("article7")
 
 
 function seenbefore() {
@@ -46,4 +47,8 @@ function rageagainst(){
 
 function camus2(){
     window.location.replace("stranger.html")
+}
+
+function thewall() {
+    window.location.replace("thewall.html")
 }
