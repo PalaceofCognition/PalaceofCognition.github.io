@@ -52,3 +52,5 @@ function camus2(){
 function thewall() {
     window.location.replace("thewall.html")
 }
+
+"sd"
