@@ -8,6 +8,7 @@ let belljar1 = document.getElementById("article4")
 let rage = document.getElementById("article5")
 let camus = document.getElementById("article6")
 let wall = document.getElementById("article7")
+let angrymen1 = document.getElementById("article8")
 
 
 function seenbefore() {
@@ -53,4 +54,6 @@ function thewall() {
     window.location.replace("thewall.html")
 }
 
-"sd"
+function angrymen() {
+    window.location.replace("12angrymen.html")
+}
