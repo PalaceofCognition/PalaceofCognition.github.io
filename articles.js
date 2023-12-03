@@ -57,3 +57,5 @@ function thewall() {
 function angrymen() {
     window.location.replace("12angrymen.html")
 }
+
+"asd"
