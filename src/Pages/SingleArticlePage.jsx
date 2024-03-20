@@ -1,7 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import articles from '../Articles.json';
-import { Helmet } from 'react-helmet';
 
 const SingleArticlePage = () => {
   const { title } = useParams();
@@ -14,13 +13,11 @@ const SingleArticlePage = () => {
   return (
     <div>
         <div>
-        <Helmet>
-            <title>{article.title}</title>
+            {/* <title>{article.title}</title>
             <meta name="description" content={article.description} />
             <meta property="og:title" content={article.title} />
             <meta property="og:description" content={article.description} />
-            <meta property="og:image" content={article.imageUrl} />
-        </Helmet>
+            <meta property="og:image" content={article.imageUrl} /> */}
             </div>
             <div>
             <h1>{article.title}</h1>

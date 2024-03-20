@@ -100,8 +100,8 @@ body {
   font-family: mainFont;
   padding: 23px 10px;
   color: white;
-  box-shadow: 0 0 0 2px #423831;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.192);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.548);
   background-image: url('./Images/Style/noise-dark.png');
   z-index: 100;
 }
