@@ -1,0 +1,201 @@
+@font-face{
+  font-family: mainFont;
+  src: url(Fonts/bpg_glaho.ttf);
+}
+
+body {
+  background-image: url('./Images/Style/noise-dark.png');
+  background-color: #181818;
+  color: #fff;
+  font-family: mainFont;
+  text-align: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0;
+}
+
+.latestNews {
+  text-align: center;
+  margin: 50px auto;
+  padding-bottom: 15px;
+  width: 400px;
+  max-width: 430px;
+  border-radius: 15px;
+  background-image: url('./Images/Style/noise-dark.png'), linear-gradient(to top, #383431, #69615b);
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.253);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.latestNews-description {
+  color: #c2c2c2;
+}
+
+
+.latestNews-image {
+  border-radius: 15px;
+  margin-top: 15px;
+  float: center;
+  margin-right: 10px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.589);
+  width: 200px;
+  height: auto;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+
+.webComponent {
+  text-align: center;
+  margin: 50px auto;
+  padding-bottom: 15px;
+  width: 400px;
+  max-width: 430px;
+  border-radius: 15px;
+  background-image: url('./Images/Style/noise-dark.png');
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.253);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.webComponent-description {
+  color: #c2c2c2;
+}
+
+
+.webComponent-image {
+  border-radius: 15px;
+  margin-top: 15px;
+  float: center;
+  margin-right: 10px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.589);
+  width: 200px;
+  height: auto;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.loadingTxt{
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  font-family: mainFont;
+  margin-top: 200px;
+}
+
+
+.layoutDiv {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  font-family: mainFont;
+  padding: 23px 10px;
+  color: white;
+  box-shadow: 0 0 0 2px #423831;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.192);
+  background-image: url('./Images/Style/noise-dark.png');
+  z-index: 100;
+}
+
+
+.headerButtons {
+  display: center;
+  flex-direction: row;
+  float: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+#headerText {
+  text-align: center;
+  padding-left: 0px;
+  font-size: 20px;
+  text-shadow: 0px 2px 5px black;
+}
+
+.layoutButton, .shareButton {
+  padding: 10px 20px;
+  margin-top: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-family: mainFont;
+  text-shadow: 0px 2px 5px black;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.589);
+  text-decoration: none;
+  color: #fff;
+  background-image: url('./Images/Style/noise-dark.png'), linear-gradient(to top, #3b3430, #5e534c);
+  border: 2px solid;
+  border-color: #4d463e;
+  border-radius: 5px; 
+  transition: background-color 0.3s, border-color 0.3s, transform 0.3s, box-shadow 0.3s, color 0.3s, background-image 0.3s;
+}
+
+
+.layoutButton:hover, .shareButton:hover {
+  border-color: #7a7167; 
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.658);
+  background-image: url('./Images/Style/noise-light.png'), linear-gradient(to bottom, #6e645d, #695a50);
+}
+
+.layoutButton:active, .shareButton:active {
+  background-image: url('./Images/Style/noise-light.png'), linear-gradient(to bottom, #7c736c, #695a50);
+  transform: translateY(2px); 
+  color: #ffffffa6;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.btnMargin{
+  margin-bottom: 15px;
+}
+
+
+.webComponent-button{
+  padding: 10px 23px;
+  font-size: 16px;
+  font-family: mainFont;
+  text-shadow: 2px 2px 5px black;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.589);
+  margin-bottom: 25px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #2e2e2e;
+  border: 2px solid;
+  border-color: #494948;
+  background-image: url('./Images/Style/noise-dark.png');
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s, transform 0.3s, box-shadow 0.3s, color 0.3s, background-image 0.3s;
+}
+
+.webComponent-button:hover {
+  background-color: #424242; 
+  border-color: #929292; 
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.658);
+  background-image: url('./Images/Style/noise-light.png'); 
+}
+
+.webComponent-button:active {
+  background-image: url('./Images/Style/noise-light.png'); 
+  transform: translateY(2px); 
+  color: #ffffffa6;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.headerButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.headerButtons button {
+  margin: 0 10px;
+}
